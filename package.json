@@ -5,15 +5,17 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev":"nodemon Backend/index.js",
-    "start":"node Backend/index.js"
-
+    "dev": "nodemon Backend/index.js",
+    "start": "node Backend/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "express": "^4.19.2",
+    "mongodb": "^6.7.0",
+    "mongoose": "^8.4.4",
     "nodemon": "^3.1.4"
   }
 }
